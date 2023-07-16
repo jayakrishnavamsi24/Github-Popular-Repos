@@ -1,0 +1,34 @@
+.repo-card {
+  width: 100%;
+  margin: 10px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #efe7ef;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.repo-card > p {
+    color: #e73959;
+    font-weight: 600;
+}
+
+.avatar-img {
+  height: 60px;
+  width: 60px;
+}
+
+.data-cont {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.data-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
